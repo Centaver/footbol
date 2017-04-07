@@ -1,0 +1,177 @@
+body {
+    background-image: url(../img/green-grass_background.jpg);
+     background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.plase{
+    color: aliceblue;
+    width: 10px;
+    background-color: black;
+    border-color: black;
+    outline:none;
+}
+
+.nav {
+    position: relative;
+    top: 400px;
+    left: 420px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transform: rotate(45deg) scale(0.8);
+    background-image: url(../img/m.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 999;
+}
+
+.tran {
+    transition: left 5s cubic-bezier(0, .5, .5, 1);
+    /* JavaScript ставит значение left: 450px */
+}
+
+.bl,
+.br,
+.bt,
+.bb {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/left.png);
+    background-size: cover;
+    z-index: 999;
+    border-radius: 40%;
+}
+
+.bt {
+    transform: rotate(45deg);
+}
+
+.br {
+    transform: rotate(135deg);
+}
+
+.bl {
+    transform: rotate(-45deg);
+}
+
+.bb {
+    transform: rotate(225deg);
+}
+
+.cover {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background-image: url(../img/6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_lc {
+    position: relative;
+    width: 160px;
+    height: 80px;
+    top: 120px;
+    left: 280px;
+    background-image: url(../img/save_lb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_lt {
+    position: relative;
+    width: 160px;
+    height: 110px;
+    top: 70px;
+    left: 290px;
+    background-image: url(../img/save_lt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_lb {
+    position: relative;
+    width: 160px;
+    height: 110px;
+    top: 150px;
+    left: 290px;
+    background-image: url(../img/save_l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_rc {
+    position: relative;
+    width: 160px;
+    height: 80px;
+    top: 120px;
+    left: 490px;
+    background-image: url(../img/save_rb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_rt {
+    position: relative;
+    width: 160px;
+    height: 110px;
+    top: 70px;
+    left: 490px;
+    background-image: url(../img/save_rt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_rb {
+    position: relative;
+    width: 160px;
+    height: 110px;
+    top: 150px;
+    left: 490px;
+    background-image: url(../img/save_r.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_ct {
+    position: relative;
+    width: 90px;
+    height: 130px;
+    top: 70px;
+    left: 420px;
+    background-image: url(../img/save_t.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ciper_c {
+    position: relative;
+    width: 90px;
+    height: 140px;
+    top: 110px;
+    left: 425px;
+    background-image: url(../img/save.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 99;
+}
+
+.ciper {
+    position: relative;
+    width: 90px;
+    height: 140px;
+    top: 110px;
+    left: 425px;
+    background-image: url(../img/save.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 99;
+}
